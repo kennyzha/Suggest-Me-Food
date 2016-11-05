@@ -23,7 +23,7 @@ public class Scraper
 
     }
     public void scrape(){
-        final int SECONDARY_DRIVES = 5;
+        final int SECONDARY_DRIVES = 0;
         System.out.println("hello");
         System.setProperty("webdriver.chrome.driver", this.getClass().getResource("chromedriver.exe").getFile());
         ArrayList<ChromeDriver> driverArray = new ArrayList<>();
