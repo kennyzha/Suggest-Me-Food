@@ -1,0 +1,13 @@
+name: chicken dinner
+img_url: http://greenmangoscatering.com/wp-content/uploads/2014/07/chicken.jpg
+calories: 20
+ingredient: bone
+ingredient: beak
+nutritionF: Saturated 19g 70%
+nutritionF: Trans **DATA**
+nutritionF: Mono **DATA**
+nutritionF: Poly **DATA**
+nutritionC: Carbs(net) 89g  
+nutritionC: Fiber 26g 103
+nutrition: Protein 30g 60%
+nutrition: Vitamin K 19ug 24%
