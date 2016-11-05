@@ -1,9 +1,9 @@
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- * Created by Weilin on 11/5/2016.
- */
 public class Driver extends Application{
 
     public static void main(String[] args){
@@ -13,5 +13,12 @@ public class Driver extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
 
+        Parent root = FXMLLoader.load(getClass().getResource("Main Screen.fxml"));
+
+        Scene scene = new Scene(root);
+
+        primaryStage.setTitle("Suggest Me Food!");
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 }
