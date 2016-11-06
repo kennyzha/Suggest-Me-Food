@@ -52,17 +52,22 @@ public class MainScreenController {
 
     @FXML
     public void mouseEnteredX(Event event) {
-        System.out.println("dadadadadda");
         Timeline timeline = new Timeline(
-                new KeyFrame(Duration.millis(0), new KeyValue(close.scaleXProperty(), 0.1)),
-                new KeyFrame(Duration.millis(0), new KeyValue(close.scaleYProperty(), 0.1)),
-                new KeyFrame(Duration.millis(300), new KeyValue(close.scaleXProperty(), 0.2)),
-                new KeyFrame(Duration.millis(300), new KeyValue(close.scaleYProperty(), 0.2)));
+                new KeyFrame(Duration.millis(0), new KeyValue(close.scaleXProperty(), close.getScaleX())),
+                new KeyFrame(Duration.millis(0), new KeyValue(close.scaleYProperty(), close.getScaleY())),
+                new KeyFrame(Duration.millis(200), new KeyValue(close.scaleXProperty(), 0.15)),
+                new KeyFrame(Duration.millis(200), new KeyValue(close.scaleYProperty(), 0.15)));
         timeline.play();
     }
 
     @FXML
     public void mouseExitedX(Event event) {
+        Timeline timeline = new Timeline(
+                new KeyFrame(Duration.millis(0), new KeyValue(close.scaleXProperty(), close.getScaleX())),
+                new KeyFrame(Duration.millis(0), new KeyValue(close.scaleYProperty(), close.getScaleY())),
+                new KeyFrame(Duration.millis(200), new KeyValue(close.scaleXProperty(), 0.1)),
+                new KeyFrame(Duration.millis(200), new KeyValue(close.scaleYProperty(), 0.1)));
+        timeline.play();
     }
 
     @FXML
