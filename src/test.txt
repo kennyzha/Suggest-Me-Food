@@ -1,0 +1,41 @@
+header: RECIPE
+ingredient: bone
+ingredient: beak
+ingredient: broccoli
+ingredient: cheese
+nutritionF: Fat 33g 24% //let the first be the total fat count
+nutritionF: Saturated 19g 70%
+nutritionF: Trans 0g 0%
+nutritionF: Mono 0g 0%
+nutritionF: Poly 0g 0%
+nutritionC: Carbs 115g 38% //let the first be the total carb count
+nutritionC: Carbs(net) 89g  
+nutritionC: Fiber 26g 103
+nutrition: Protein 30g 60%
+nutrition: Vitamin K 19ug 24% //important that Vitamin K --> VitaminK for all vitamins
+name: chicken dinner
+img_url: https://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg
+recipe_url: https://www.edamam.com/recipe/lemon-mint-barley-water-70db162fb73376094915a9ca4fbcdc6e/water
+calories: 20
+footer: END
+header: RECIPE
+ingredient: steak
+ingredient: more steak
+ingredient: chili powder
+ingredient: garlic
+ingredient: cheese
+nutritionF: Fat 27g 24% //let the first be the total fat count
+nutritionF: Saturated 19g 70%
+nutritionF: Trans 0g 0%
+nutritionF: Mono 0g 0%
+nutritionF: Poly 0g 0%
+nutritionC: Carbs 115g 38% //let the first be the total carb count
+nutritionC: Carbs(net) 89g  
+nutritionC: Fiber 26g 103
+nutrition: Protein 30g 60%
+nutrition: Vitamin D 19ug 24% //important that Vitamin K --> VitaminK for all vitamins
+name: Steak Dinner
+img_url: https://www.edamam.com/web-img/1ea/1ea2779bd0986b7765b561f896be3cc2.jpg
+recipe_url: https://www.edamam.com/recipe/grilled-steak-194f7a6e7073b9004f46df44203b345b/steak
+calories: 20
+footer: END
