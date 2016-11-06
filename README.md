@@ -1,5 +1,4 @@
 # Suggest-Me-Food UB Hacking 2016
-Uses ingredients in your fridge to come up wit ha recipe
-
+Input ingredients that you have lying around at home and the program will come up with a wide range of recipes that you can make with the inputted ingredients.
 
 ![Image of Application](http://i.imgur.com/CQWFsSj.png)
