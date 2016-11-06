@@ -23,7 +23,7 @@ public class Fats {
 		return fatAmount;
 	}
 	
-	public int getPercent(){
+	public int getPercentage(){
 		return fatPercentage;
 	}
 	
