@@ -42,45 +42,54 @@ public class Scraper
 //        WebDriver secondaryWebDriver = new ChromeDriver();
         webDriver.get("https://www.edamam.com/recipes/" + ingredient);
 
-
         String mainURL = webDriver.getCurrentUrl();
 
         try{
             ArrayList<String> urls = new ArrayList<>();
             int index = 1;
             int driverIndex = 0;
-
-
             while(true){
                 Thread.sleep(10);
 
-//                System.out.println("loooping");;
+
+
+                System.out.println("loooping");;
                 ChromeDriver currDriver = driverArray.get(driverIndex);
                 if(!driverStatus[driverIndex]){
                     continue;
                 }
+<<<<<<< HEAD
+// test gitignore3
+=======
+                // testing gitignore
+>>>>>>> 073c6b363077ab873d2e657049fa7222091651c7
                 driverStatus[driverIndex] = false;
                 final int currentIndex = index;
                 final int currentDriver = driverIndex;
                 new Thread(){
                     @Override
                     public void run(){
-                        String linkxPath = "//*[@id=\"search-results\"]/div[2]/div/ul/li[" + currentIndex + "]/div[2]/div/div[1]/a";
-                        // //*[@id="search-results"]/div[2]/div/ul/li[ 3 ]/div[2]/div/div[1]/a
-                        WebElement wait0 = new WebDriverWait(webDriver, 3).until(ExpectedConditions.presenceOfElementLocated(By.xpath(linkxPath)));
-                        String linkURL = webDriver.findElement(By.xpath(linkxPath)).getAttribute("href");
-                        System.out.println(linkURL);
-                        System.out.println("linkxpath is " + linkxPath);
 
+                        currDriver.get(mainURL);
                         String imgxPath = "//*[@id=\"search-results\"]/div[2]/div/ul/li[" + currentIndex +"]/div[2]/div/div[1]/a/span[1]/span/img";
-                        WebElement wait1 = new WebDriverWait(webDriver, 3).until(ExpectedConditions.presenceOfElementLocated(By.xpath(imgxPath)));
-                        String imgURL = webDriver.findElement(By.xpath(imgxPath)).getAttribute("src"); // getting img url
-                        System.out.println("Image url is " + imgURL);
-
-                        currDriver.get(linkURL);
                         String clickablexPath = "//*[@id=\"search-results\"]/div[2]/div/ul/li[" + currentIndex + "]";
+                        WebElement wait1 = new WebDriverWait(currDriver, 3).until(ExpectedConditions.presenceOfElementLocated(By.xpath(imgxPath)));
+                        WebElement wait2 = new WebDriverWait(currDriver, 3).until(ExpectedConditions.presenceOfElementLocated(By.xpath(clickablexPath)));
+
+                        String imgURL = currDriver.findElement(By.xpath(imgxPath)).getAttribute("src"); // getting img url
+                        // //*[@id="search-results"]/div[2]/div/ul/li[1]/div[2]/div/div[1]/a/span[1]/span/img vs //*[@id="search-results"]/div[2]/div/ul/li[5]/div[2]/div/div[1]/a/span[1]/span/img vs //*[@id="search-results"]/div[2]/div/ul/li[2]/div[2]/div/div[1]/a/span[1]/span/img
+                        System.out.println("Image url is " + imgURL);
+                        currDriver.findElement(By.xpath(clickablexPath)).click();
+                        ////*[@id="search-results"]/div[2]/div/ul/li[3] . //*[@id="search-results"]/div[2]/div/ul/li[1]
+        //                try {
+        //                    Thread.sleep(1000);
+        //                } catch (InterruptedException e) {
+        //                    e.printStackTrace();
+        //                }
+
                         System.out.println("Current index is " + currentIndex);
                         driverStatus[currentDriver] = true;
+
                     }
                 }.start();
                 index++;
