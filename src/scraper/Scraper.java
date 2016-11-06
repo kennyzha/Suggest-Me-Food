@@ -58,7 +58,7 @@ public class Scraper
                 if(!driverStatus[driverIndex]){
                     continue;
                 }
-                // testing gitignore
+
                 driverStatus[driverIndex] = false;
                 final int currentIndex = index;
                 final int currentDriver = driverIndex;
