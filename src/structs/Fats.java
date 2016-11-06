@@ -5,6 +5,12 @@ public class Fats {
 	public String fatAmount;
 	public int fatPercentage;
 	
+	public Fats(String type, String amount, int percent){
+		fatType = type;
+		fatAmount = amount;
+		fatPercentage = percent;
+	}
+	
 	public Fats(){
 		this("","",0);
 	}
