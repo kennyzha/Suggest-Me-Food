@@ -15,7 +15,7 @@ public class Driver extends Application{
     @Override
     public void start(Stage stage) throws Exception {
         stage.initStyle(StageStyle.TRANSPARENT);
-        stage.setTitle("Suggest Me Foosd!");
+        stage.setTitle("Suggest Me FOOOOOOOOD!");
 
         Parent root = FXMLLoader.load(getClass().getResource("ui/Main Screen.fxml"));
         Scene scene = new Scene(root, Color.TRANSPARENT);
