@@ -53,7 +53,7 @@ public class Nutrient{
 	
 	/****Returns all the nutrient information in a string***/
 	public String toString(){
-		return "Name: " + name + '\n' + "Amount: " + amount + '\n' + "Percentage: " + percentage + "%";
+		return name + " " + amount + " " + percentage;
 	}
 	public int convertGtoMG(int gram){
 		int mg;
