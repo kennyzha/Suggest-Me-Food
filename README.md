@@ -1,4 +1,4 @@
-# Suggest-Me-Food
+# Suggest-Me-Food UB Hacking 2016
 Uses ingredients in your fridge to come up wit ha recipe
 
 
