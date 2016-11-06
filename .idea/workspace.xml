@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/scraper/Scraper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.1452514">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -692,7 +692,7 @@
     <entry file="file://$PROJECT_DIR$/src/scraper/Scraper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1452514">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
