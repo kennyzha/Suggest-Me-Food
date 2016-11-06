@@ -72,10 +72,21 @@ public class MainScreenController {
 
     @FXML
     public void mouseEnteredMinimize(Event event) {
+        Timeline timeline = new Timeline(
+                new KeyFrame(Duration.millis(0), new KeyValue(minimize.scaleXProperty(), minimize.getScaleX())),
+                new KeyFrame(Duration.millis(0), new KeyValue(minimize.scaleYProperty(), minimize.getScaleY())),
+                new KeyFrame(Duration.millis(200), new KeyValue(minimize.scaleXProperty(), 0.15)),
+                new KeyFrame(Duration.millis(200), new KeyValue(minimize.scaleYProperty(), 0.15)));
+        timeline.play();
     }
 
     @FXML
     public void mouseExitedMinimize(Event event) {
-
+        Timeline timeline = new Timeline(
+                new KeyFrame(Duration.millis(0), new KeyValue(minimize.scaleXProperty(), minimize.getScaleX())),
+                new KeyFrame(Duration.millis(0), new KeyValue(minimize.scaleYProperty(), minimize.getScaleY())),
+                new KeyFrame(Duration.millis(200), new KeyValue(minimize.scaleXProperty(), 0.1)),
+                new KeyFrame(Duration.millis(200), new KeyValue(minimize.scaleYProperty(), 0.1)));
+        timeline.play();
     }
 }
