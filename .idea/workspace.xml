@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fadfe44f-14a4-4712-b6cf-b4e430c4f615" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_java_2_8_01.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Suggest-Me-Food.iml" afterPath="$PROJECT_DIR$/Suggest-Me-Food.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Suggest-Me-Food/ui/Main Screen.fxml" afterPath="$PROJECT_DIR$/out/production/Suggest-Me-Food/ui/Main Screen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scraper/Scraper.java" afterPath="$PROJECT_DIR$/src/scraper/Scraper.java" />
     </list>
     <ignored path="Suggest Me Food.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="Scraper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scraper/Scraper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63910615">
-              <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.1452514">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -694,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scraper/Scraper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63910615">
-          <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.1452514">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
